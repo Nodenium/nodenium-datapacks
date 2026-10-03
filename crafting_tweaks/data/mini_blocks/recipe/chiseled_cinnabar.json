@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "minecraft:chiseled_cinnabar",
+  "result": {
+    "count": 8,
+    "id": "minecraft:player_head",
+    "components": {
+      "custom_name": {"type": "translatable", "translate": "block.mini_blocks.chiseled_cinnabar", "fallback": "Mini Chiseled Cinnabar", "color": "white", "italic": false},
+      "note_block_sound": "minecraft:block.cinnabar.hit",
+      "profile": {
+        "properties": [
+          {
+            "name": "textures",
+            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzY0NWY1N2RjNDQzMTYwNzI1MTkyNDIwNDk3OGNjMTlhMTM4MmUyNWIwNDI3ZjJjYzYxM2RlZGQ5NDZhZjBmYyJ9fX0="
+          }
+        ]
+      }
+    }
+  }
+}

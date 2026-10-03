@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "minecraft:deepslate_brick_slab",
+  "result": {
+    "count": 4,
+    "id": "minecraft:player_head",
+    "components": {
+      "custom_name": {"text": "Mini Deepslate Bricks", "color": "white", "italic": false},
+      "note_block_sound": "minecraft:block.deepslate_bricks.hit",
+      "profile": {
+        "properties": [
+          {
+            "name": "textures",
+            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjRjMmMzMTYzZjFjYTZlN2Y0MTVlNTgzNzYzYTZkMjE5OGEyZjg2NDdiYzFmNWE3YzNiMmY5YzkyYjRkMjNiNyJ9fX0="
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "minecraft:oxidized_copper_lantern",
+  "result": {
+    "count": 1,
+    "id": "minecraft:player_head",
+    "components": {
+      "custom_name": {"text": "Oxidized Copper Lantern", "color": "white", "italic": false},
+      "note_block_sound": "minecraft:block.lantern.hit",
+      "profile": {
+        "properties": [
+          {
+            "name": "textures",
+            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjFjYjBlMjQxNDgwYzJjYTEyNGM4M2IxZWZlMGQ5MGY4YTM1YmEzYzNhMDQ4NGI1OTZiYWMzZWFjYTJmMWUzYyJ9fX0="
+          }
+        ]
+      }
+    }
+  }
+}

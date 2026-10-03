@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:white_wool"
+      "id": "minecraft:white_wool_stairs"
     },
     "title": "Cuttable Wool",
     "description": [

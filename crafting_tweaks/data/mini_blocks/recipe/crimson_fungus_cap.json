@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "minecraft:crimson_fungus",
+  "result": {
+    "count": 1,
+    "id": "minecraft:player_head",
+    "components": {
+      "custom_name": {"text": "Crimson Fungus Cap", "color": "white", "italic": false},
+      "note_block_sound": "minecraft:block.fungus.break",
+      "profile": {
+        "properties": [
+          {
+            "name": "textures",
+            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTQ0MTNjOTRkOWFjZjMxNGZlMzU4MjhlNDgwNTg2ODVjNzUyOWYxZTE3OTM1YzU5MWNiYjcwMGEwYmU2ZmRlMyJ9fX0="
+          }
+        ]
+      }
+    }
+  }
+}

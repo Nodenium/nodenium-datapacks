@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "minecraft:crimson_hyphae",
+  "result": {
+    "count": 8,
+    "id": "minecraft:player_head",
+    "components": {
+      "custom_name": {"text": "Mini Crimson Hyphae", "color": "white", "italic": false},
+      "note_block_sound": "minecraft:block.stem.hit",
+      "profile": {
+        "properties": [
+          {
+            "name": "textures",
+            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTJiZjU5ZjAzY2Y0MTIwZmIxNjMxM2M2NDk5ZmJmOTI1MmE0OWI4MzFkZWM2ZTE3NjQ3YWFmY2VlMWJkZTRiZCJ9fX0="
+          }
+        ]
+      }
+    }
+  }
+}

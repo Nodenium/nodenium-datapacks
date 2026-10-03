@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "minecraft:dried_ghast",
+  "result": {
+    "count": 1,
+    "id": "minecraft:player_head",
+    "components": {
+      "custom_name": {"text": "Partially Hydrated Dried Ghast", "color": "white", "italic": false},
+      "note_block_sound": "minecraft:block.dried_ghast.ambient_water",
+      "profile": {
+        "properties": [
+          {
+            "name": "textures",
+            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzgzNjU5MTUzNWY1YjI0Mzc3YzUxMjA3Nzk5YmVjZWVhNmYwOTQ1ZWNmZDdlYjA4MDg0ZWYxNzMwZWNlYjk1In19fQ=="
+          }
+        ]
+      }
+    }
+  }
+}

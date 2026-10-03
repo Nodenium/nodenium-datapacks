@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "minecraft:calibrated_sculk_sensor",
+  "result": {
+    "count": 4,
+    "id": "minecraft:player_head",
+    "components": {
+      "custom_name": {"text": "Mini Calibrated Sculk Sensor", "color": "white", "italic": false},
+      "note_block_sound": "minecraft:block.sculk_sensor.clicking",
+      "profile": {
+        "properties": [
+          {
+            "name": "textures",
+            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjkwNzI3MWU3ZTE5NjI3NzhkNjQ3MTgxZDc4MDdmNDg1NGY5NmZmOTJkMjRlNWM1YjUzYjM4ZjdhMjM4ZGVmNSJ9fX0="
+          }
+        ]
+      }
+    }
+  }
+}

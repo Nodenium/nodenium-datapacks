@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "minecraft:warped_hyphae",
+  "result": {
+    "count": 8,
+    "id": "minecraft:player_head",
+    "components": {
+      "custom_name": {"text": "Mini Warped Hyphae", "color": "white", "italic": false},
+      "note_block_sound": "minecraft:block.stem.hit",
+      "profile": {
+        "properties": [
+          {
+            "name": "textures",
+            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTc1M2E0OTcwM2MwNjhiYjE4MmQ3NjYwYTkwNWNlNWViOTU0OWVjMGU2NDYxY2VhZTVkZDA2MTQ0MzNhOTk4YiJ9fX0="
+          }
+        ]
+      }
+    }
+  }
+}

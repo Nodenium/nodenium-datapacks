@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "minecraft:copper_chest",
+  "result": {
+    "count": 8,
+    "id": "minecraft:player_head",
+    "components": {
+      "custom_name": {"text": "Mini Copper Chest", "color": "white", "italic": false},
+      "note_block_sound": "minecraft:block.copper_chest.open",
+      "profile": {
+        "properties": [
+          {
+            "name": "textures",
+            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmE3ODQ4ZGZlNTk3OTk1ZDA0ZTgyMmFjNTM4NzhhMjllZDgxZTFmMTUyODQ4ZjE4MjNjYjM1MjljNDdlMWNlZiJ9fX0="
+          }
+        ]
+      }
+    }
+  }
+}

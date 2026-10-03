@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "minecraft:piston",
+  "result": {
+    "count": 8,
+    "id": "minecraft:player_head",
+    "components": {
+      "custom_name": {"text": "Mini Piston", "color": "white", "italic": false},
+      "note_block_sound": "minecraft:block.piston.extend",
+      "profile": {
+        "properties": [
+          {
+            "name": "textures",
+            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzQyMGExMjVjMmNjMWE2NDQzNjNhYzNlMDg1MDRkNjYwNTRiMmE3ZTRlMDVlYTU2MGYyNDNkZjVmNzdiYWY0MyJ9fX0="
+          }
+        ]
+      }
+    }
+  }
+}

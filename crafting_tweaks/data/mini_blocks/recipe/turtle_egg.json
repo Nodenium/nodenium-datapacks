@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "minecraft:turtle_egg",
+  "result": {
+    "count": 1,
+    "id": "minecraft:player_head",
+    "components": {
+      "custom_name": {"text": "Turtle Egg", "color": "white", "italic": false},
+      "note_block_sound": "minecraft:entity.turtle.egg_crack",
+      "profile": {
+        "properties": [
+          {
+            "name": "textures",
+            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzdlOTA2ODFmNWFhMThiMTczNDI0NzkwMDk4NzcxMjhmODk5NzRmYmQyNGQzODFmN2ZjZWVhNzljOTE1ZDBkMiJ9fX0="
+          }
+        ]
+      }
+    }
+  }
+}

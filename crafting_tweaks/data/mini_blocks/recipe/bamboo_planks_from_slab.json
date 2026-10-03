@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "minecraft:bamboo_slab",
+  "result": {
+    "count": 4,
+    "id": "minecraft:player_head",
+    "components": {
+      "custom_name": {"text": "Mini Bamboo Planks", "color": "white", "italic": false},
+      "note_block_sound": "minecraft:block.bamboo_wood.hit",
+      "profile": {
+        "properties": [
+          {
+            "name": "textures",
+            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmQwZWYzYTc3NzllMzNiYWMzZjVlYzM5NGIxMTVjZjIyN2NhMjA1ODJlNTZjZjNjYzBjMjNkNzhjMWUyN2U0NCJ9fX0="
+          }
+        ]
+      }
+    }
+  }
+}

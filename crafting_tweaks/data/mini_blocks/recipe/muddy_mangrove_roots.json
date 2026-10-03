@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "minecraft:muddy_mangrove_roots",
+  "result": {
+    "count": 8,
+    "id": "minecraft:player_head",
+    "components": {
+      "custom_name": {"text": "Mini Muddy Mangrove Roots", "color": "white", "italic": false},
+      "note_block_sound": "minecraft:block.muddy_mangrove_roots.hit",
+      "profile": {
+        "properties": [
+          {
+            "name": "textures",
+            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTEwZDZlZDVmMjE5MDQ4NWNiNmVmOWE1YTIwYTA0MzNlNWQwNmNiODhkM2EwZDhlOWY2ZWI4OGRiNTUzNTg0ZSJ9fX0="
+          }
+        ]
+      }
+    }
+  }
+}

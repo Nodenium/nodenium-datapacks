@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "#mini_blocks:farmland_ingredients",
+  "result": {
+    "count": 8,
+    "id": "minecraft:player_head",
+    "components": {
+      "custom_name": {"text": "Mini Moist Farmland", "color": "white", "italic": false},
+      "note_block_sound": "minecraft:item.hoe.till",
+      "profile": {
+        "properties": [
+          {
+            "name": "textures",
+            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzdhN2VkYjhkMTcxYjcwMTk0ZWI4MjY5MDM3NjU0ZmJiM2Y3OWJmMTA3N2JiMWZjMGJhNzliYjg4N2EzN2QyMCJ9fX0="
+          }
+        ]
+      }
+    }
+  }
+}

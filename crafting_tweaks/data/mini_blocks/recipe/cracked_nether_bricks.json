@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "minecraft:cracked_nether_bricks",
+  "result": {
+    "count": 8,
+    "id": "minecraft:player_head",
+    "components": {
+      "custom_name": {"text": "Mini Cracked Nether Bricks", "color": "white", "italic": false},
+      "note_block_sound": "minecraft:block.nether_bricks.hit",
+      "profile": {
+        "properties": [
+          {
+            "name": "textures",
+            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzYwNTFmOGI3NDBiMGM5YmY5YTEzOWQxMjQ4NmNkYjZhMDJjNzZjNzIwOTk5OGM4OWVkYTdmMmExNDIyNTYxIn19fQ=="
+          }
+        ]
+      }
+    }
+  }
+}

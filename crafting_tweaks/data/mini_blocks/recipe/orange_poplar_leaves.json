@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "minecraft:orange_poplar_leaves",
+  "result": {
+    "count": 8,
+    "id": "minecraft:player_head",
+    "components": {
+      "custom_name": {"type": "translatable", "translate": "block.mini_blocks.orange_poplar_leaves", "fallback": "Mini Orange Poplar Leaves", "color": "white", "italic": false},
+      "note_block_sound": "minecraft:block.poplar_leaves.ambient",
+      "profile": {
+        "properties": [
+          {
+            "name": "textures",
+            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmMzNjczYjhiZTliOWEyNGU5M2IzMzc5NTBmZDgxYzIzNTBhNzAyNGM4OTQ0YzRjNmU0NTk3YzcxMjA0MWI1NiJ9fX0="
+          }
+        ]
+      }
+    }
+  }
+}

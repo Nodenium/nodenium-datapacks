@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "minecraft:cake",
+  "result": {
+    "count": 1,
+    "id": "minecraft:player_head",
+    "components": {
+      "custom_name": {"text": "Mini Cake", "color": "white", "italic": false},
+      "note_block_sound": "minecraft:block.cake.add_candle",
+      "profile": {
+        "properties": [
+          {
+            "name": "textures",
+            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGFkNjg0ZjY3NTEwODBkNDRhNjk5OWE4ZDMzOTRjMGIxYWJmN2QzZTUzOTFkMjFhYTYyZDQ4MWE1YjhjZTg3MyJ9fX0="
+          }
+        ]
+      }
+    }
+  }
+}

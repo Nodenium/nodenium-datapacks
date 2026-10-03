@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "minecraft:copper_grate",
+  "result": {
+    "count": 8,
+    "id": "minecraft:player_head",
+    "components": {
+      "custom_name": {"text": "Mini Copper Grate", "color": "white", "italic": false},
+      "note_block_sound": "minecraft:block.copper_grate.hit",
+      "profile": {
+        "properties": [
+          {
+            "name": "textures",
+            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWRiZjc2YTA5NWMxNjAyNGU5YmFhNDhmNjAyZWIxODljMzdlYjNiZDUxMDcwZTE1YWI0OWFiMjE2YjA3YjFiMSJ9fX0="
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "minecraft:green_glazed_terracotta",
+  "result": {
+    "count": 8,
+    "id": "minecraft:player_head",
+    "components": {
+      "custom_name": {"text": "Mini Green Glazed Terracotta", "color": "white", "italic": false},
+      "note_block_sound": "minecraft:block.stone.hit",
+      "profile": {
+        "properties": [
+          {
+            "name": "textures",
+            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmNlODA3ZjBhNmY0OTljZTljY2M2NTAxMGZhYTU0ZWQ0ZTBmZmE2N2NmYjg0OGNkYTE1OWQzZGNhMGEyZGNhNSJ9fX0="
+          }
+        ]
+      }
+    }
+  }
+}

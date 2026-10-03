@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "minecraft:deepslate",
+  "result": {
+    "count": 8,
+    "id": "minecraft:player_head",
+    "components": {
+      "custom_name": {"text": "Mini Deepslate (Horizontal)", "color": "white", "italic": false},
+      "note_block_sound": "minecraft:block.deepslate.hit",
+      "profile": {
+        "properties": [
+          {
+            "name": "textures",
+            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTM3ODI5ZmQyZGJiYjNiYTg4YmM3YThiNTIyM2FmNzg0OGNmMjM4MGNkMWE1MzQwMzZmZmYxNTNlZTkyNjY3OCJ9fX0="
+          }
+        ]
+      }
+    }
+  }
+}

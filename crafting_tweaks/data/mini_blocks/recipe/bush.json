@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "minecraft:bush",
+  "result": {
+    "count": 1,
+    "id": "minecraft:player_head",
+    "components": {
+      "custom_name": {"text": "Mini Bush", "color": "white", "italic": false},
+      "note_block_sound": "minecraft:block.grass.break",
+      "profile": {
+        "properties": [
+          {
+            "name": "textures",
+            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGJlYWUxNDIzYTM4NTA3OWY4ZTMwZjFkOTQ1NjhjMDk4ZWNlMjI1ZWUxNDNlN2ZkM2Q0MTc2ZjgzYmQ3ZDg1ZCJ9fX0="
+          }
+        ]
+      }
+    }
+  }
+}

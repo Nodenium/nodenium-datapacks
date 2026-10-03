@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "minecraft:smooth_basalt",
+  "result": {
+    "count": 8,
+    "id": "minecraft:player_head",
+    "components": {
+      "custom_name": {"text": "Mini Smooth Basalt", "color": "white", "italic": false},
+      "note_block_sound": "minecraft:block.basalt.hit",
+      "profile": {
+        "properties": [
+          {
+            "name": "textures",
+            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODRhZGRmYzcyMzgwNWFiMzYyOGJmYjU4MWRmYjkxZWJkYTAyNTY1YmRiMDZlNmY5YTFkNTFiMzg2NDU5M2I5YSJ9fX0="
+          }
+        ]
+      }
+    }
+  }
+}
