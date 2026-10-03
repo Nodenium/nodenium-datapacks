@@ -1,0 +1,118 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:stone"
+        },
+        "title": "Rock Collector",
+        "description": "Collect all different types of stone. Unlocks new Froglight recipe",
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "s14_twist:main/root",
+	"criteria": {
+        "stone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:stone"
+						]
+					}
+				]
+			}
+		},
+		"cobblestone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:cobblestone"
+						]
+					}
+				]
+			}
+		},
+		"granite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:granite"
+						]
+					}
+				]
+			}
+		},
+		"diorite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:diorite"
+						]
+					}
+				]
+			}
+		},
+		"andesite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:andesite"
+						]
+					}
+				]
+			}
+		},
+		"tuff": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:tuff"
+						]
+					}
+				]
+			}
+		},
+        "deepslate": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:deepslate"
+						]
+					}
+				]
+			}
+		},
+		"cobbled_deepslate": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:cobbled_deepslate"
+						]
+					}
+				]
+			}
+		}
+    },
+    "rewards":{
+        "recipes": [
+			"s14_twist:ochre_froglight",
+			"s14_twist:verdant_froglight",
+			"s14_twist:pearlescent_froglight"
+		]
+    }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": "minecraft:fern"
+  },
+  "result": {
+    "id": "minecraft:large_fern"
+  }
+}

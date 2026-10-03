@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "x#x",
+    "x^x"
+  ],
+  "key": {
+    "x": "minecraft:brick",
+    "#": "minecraft:danger_pottery_sherd",
+    "^": "minecraft:gunpowder"
+  },
+  "result": {
+    "id": "minecraft:danger_pottery_sherd",
+    "count": 8
+  }
+}

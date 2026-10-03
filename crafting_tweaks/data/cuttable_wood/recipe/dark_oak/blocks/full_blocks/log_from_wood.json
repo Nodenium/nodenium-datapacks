@@ -1,0 +1,7 @@
+{
+	"type": "stonecutting",
+	"ingredient": "dark_oak_wood",
+	"result": {
+		"id": "dark_oak_log"
+	}
+}

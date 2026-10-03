@@ -1,0 +1,164 @@
+{
+  "type": "minecraft:confirmation",
+  "title": "Set Item Name",
+  "pause": false,
+  "inputs": [
+    {
+      "type": "minecraft:boolean",
+      "key": "shulker_mode",
+      "label": "Shulker Mode"
+    },
+    {
+      "type": "minecraft:text",
+      "key": "text",
+      "label": "Name",
+      "max_length": 50
+    },
+    {
+      "type": "minecraft:single_option",
+      "key": "color",
+      "label": "Color",
+      "options": [
+        {
+          "id": "white",
+          "display": {
+            "text": "White",
+            "color": "white"
+          }
+        },
+        {
+          "id": "black",
+          "display": {
+            "text": "Black",
+            "color": "black"
+          }
+        },
+        {
+          "id": "dark_blue",
+          "display": {
+            "text": "Dark Blue",
+            "color": "dark_blue"
+          }
+        },
+        {
+          "id": "dark_green",
+          "display": {
+            "text": "Dark Green",
+            "color": "dark_green"
+          }
+        },
+        {
+          "id": "dark_aqua",
+          "display": {
+            "text": "Dark Aqua",
+            "color": "dark_aqua"
+          }
+        },
+        {
+          "id": "dark_red",
+          "display": {
+            "text": "Dark Red",
+            "color": "dark_red"
+          }
+        },
+        {
+          "id": "dark_purple",
+          "display": {
+            "text": "Dark Purple",
+            "color": "dark_purple"
+          }
+        },
+        {
+          "id": "gold",
+          "display": {
+            "text": "Gold",
+            "color": "gold"
+          }
+        },
+        {
+          "id": "gray",
+          "display": {
+            "text": "Gray",
+            "color": "gray"
+          }
+        },
+        {
+          "id": "dark_gray",
+          "display": {
+            "text": "Dark Gray",
+            "color": "dark_gray"
+          }
+        },
+        {
+          "id": "blue",
+          "display": {
+            "text": "Blue",
+            "color": "blue"
+          }
+        },
+        {
+          "id": "green",
+          "display": {
+            "text": "Green",
+            "color": "green"
+          }
+        },
+        {
+          "id": "aqua",
+          "display": {
+            "text": "Aqua",
+            "color": "aqua"
+          }
+        },
+        {
+          "id": "red",
+          "display": {
+            "text": "Red",
+            "color": "red"
+          }
+        },
+        {
+          "id": "light_purple",
+          "display": {
+            "text": "Light Purple",
+            "color": "light_purple"
+          }
+        },
+        {
+          "id": "yellow",
+          "display": {
+            "text": "Yellow",
+            "color": "yellow"
+          }
+        }
+      ]
+    },
+    {
+      "type": "minecraft:boolean",
+      "key": "italic",
+      "label": "Italic",
+      "initial": true
+    },
+    {
+      "type": "minecraft:boolean",
+      "key": "bold",
+      "label": "Bold"
+    }
+  ],
+  "yes": {
+    "label": {
+      "translate": "gui.done",
+      "fallback": "Done"
+    },
+    "action": {
+      "type": "minecraft:dynamic/run_command",
+      "template": "/function reformat_and_style:prepare_text_component {text:\"$(text)\",color:$(color),bold:$(bold),italic:$(italic),shulker_mode:$(shulker_mode),component:\"custom_name\"}"
+    }
+  },
+  "no": {
+    "label": {
+      "translate": "gui.cancel",
+      "fallback": "Cancel"
+    }
+  }
+}

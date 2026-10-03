@@ -1,0 +1,1 @@
+scoreboard objectives add egg_score dummy "Egg Score"

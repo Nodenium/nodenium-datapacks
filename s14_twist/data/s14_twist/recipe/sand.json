@@ -1,0 +1,12 @@
+{
+    "type" : "minecraft:crafting_shapeless" ,
+    "category" : "misc" ,
+    "ingredients" : [
+        [
+            "minecraft:soul_sand"
+        ]
+    ],
+    "result" : {
+        "id" : "minecraft:sand" 
+    }
+}

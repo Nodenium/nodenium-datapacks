@@ -1,0 +1,37 @@
+{
+	"criteria": {
+		"has_a_ingredient": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "#cherry_logs"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"recipes": [
+			"cuttable_wood:cherry/blocks/full_blocks/log_from_wood",
+			"cuttable_wood:cherry/blocks/full_blocks/log_to_wood",
+			"cuttable_wood:cherry/blocks/full_blocks/planks_from_logs",
+			"cuttable_wood:cherry/blocks/full_blocks/stripped_log_from_logs",
+			"cuttable_wood:cherry/blocks/full_blocks/stripped_wood_from_logs",
+			"cuttable_wood:cherry/blocks/slab_from_logs",
+			"cuttable_wood:cherry/blocks/slab_from_planks",
+			"cuttable_wood:cherry/blocks/stairs_from_logs",
+			"cuttable_wood:cherry/blocks/stairs_from_planks",
+			"cuttable_wood:cherry/misc/button_from_log",
+			"cuttable_wood:cherry/misc/button_from_planks",
+			"cuttable_wood:cherry/misc/door_from_log",
+			"cuttable_wood:cherry/misc/fence_from_log",
+			"cuttable_wood:cherry/misc/fence_gate_from_log",
+			"cuttable_wood:cherry/misc/pressure_plate_from_log",
+			"cuttable_wood:cherry/misc/shelf_from_log",
+			"cuttable_wood:cherry/misc/sign_from_log",
+			"cuttable_wood:cherry/misc/trapdoor_from_log",
+			"cuttable_wood:cherry/misc/trapdoor_from_planks"
+		]
+	}
+}

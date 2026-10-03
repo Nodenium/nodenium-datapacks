@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Reformat & Style",
+  "body": [],
+  "inputs": [],
+  "pause": false,
+  "after_action": "none",
+  "columns": 1,
+  "actions": [
+    {
+      "label": "Set Custom Name & Formatting",
+      "width": 200,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger set_custom_name"
+      }
+    },
+    {
+      "label": "Set Lore",
+      "width": 200,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger set_lore"
+      }
+    },
+    {
+      "label": "Set Display Data",
+      "width": 200,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger set_display_data"
+      }
+    }
+  ]
+}

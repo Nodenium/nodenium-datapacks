@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "x#x",
+    "x^x"
+  ],
+  "key": {
+    "x": "minecraft:brick",
+    "#": "minecraft:scrape_pottery_sherd",
+    "^": "minecraft:golden_axe"
+  },
+  "result": {
+    "id": "minecraft:scrape_pottery_sherd",
+    "count": 8
+  }
+}

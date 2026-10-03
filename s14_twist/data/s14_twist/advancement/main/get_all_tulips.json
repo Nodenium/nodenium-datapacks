@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:orange_tulip"
+        },
+        "title": "Dutch Ambitions",
+        "description": "Gather every Tulip type. Receive a stack of blue orchids and eyeblossoms",
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "s14_twist:main/root",
+    "criteria": {
+        "trigger":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions" : {
+                "items": [ 
+                    {"items": "minecraft:red_tulip"},
+                    {"items": "minecraft:orange_tulip"},
+                    {"items": "minecraft:pink_tulip"},
+                    {"items": "minecraft:white_tulip"}
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function" : "s14_twist:give_orchid"
+    }
+}

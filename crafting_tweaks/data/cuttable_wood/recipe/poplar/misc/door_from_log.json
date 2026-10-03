@@ -1,0 +1,8 @@
+{
+	"type": "stonecutting",
+	"ingredient": "#poplar_logs",
+	"result": {
+		"id": "poplar_door",
+		"count": 2
+	}
+}

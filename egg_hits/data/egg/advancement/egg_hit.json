@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "egg_hit": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "blocked": false,
+                    "type": {
+                        "direct_entity": {
+                            "type": "minecraft:egg"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "egg:check_player"
+    }
+}

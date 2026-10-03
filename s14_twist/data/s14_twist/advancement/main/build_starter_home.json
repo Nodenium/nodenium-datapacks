@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:shulker_shell"
+        },
+        "title": "It's Not Much, But It's Home",
+        "description": "Build a home in the Starter Village and message council. Receive 8 Shulker Shells",
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "s14_twist:main/root",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "s14_twist:give_shulker"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "group": "corals",
+    "pattern": [
+        "##",
+        "##"
+    ],
+    "key": {
+        "#": "#craftable_corals:fire_corals"
+    },
+    "result": {
+        "id": "minecraft:fire_coral_block",
+        "count": 4
+    }
+}

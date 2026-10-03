@@ -1,0 +1,53 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:goat_horn"
+        },
+        "title": "Wake Up Call",
+        "description": "Use a Goat Horn in an Ancient City. Receive a Creaking Heart and Pale Moss",
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "s14_twist:main/root",
+	"criteria": {
+		"goat_horn": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:goat_horn"
+					]
+				},
+				"player": [
+					{
+						"condition": "minecraft:any_of",
+						"terms": [
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"location": {
+										"biomes": "minecraft:deep_dark"
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"location": {
+										"structures": "minecraft:ancient_city"
+									}
+								}
+							}
+						]
+					}
+				]
+			}
+		}
+	},
+    "rewards":{
+        "function": "s14_twist:give_creaking"
+    }
+}

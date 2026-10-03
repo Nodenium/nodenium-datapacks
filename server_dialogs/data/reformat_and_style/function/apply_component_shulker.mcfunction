@@ -1,0 +1,1 @@
+$item modify entity @s weapon.mainhand {function:"minecraft:modify_contents",component:"minecraft:container",modifier:{"function":"minecraft:set_components","components":{"minecraft:$(component)":"$(input)"}}}

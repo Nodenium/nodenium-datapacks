@@ -1,0 +1,55 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Select World",
+  "exit_action": {
+    "label": {
+      "translate": "gui.done"
+    },
+    "width": 200
+  },
+  "columns": 1,
+  "actions": [
+    {
+      "label": "Season 10",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "execute in season_10:overworld run tp @s 0 103 256 180 0"
+      }
+    },
+    {
+      "label": "Season 11",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "execute in season_11:overworld run tp @s -64 65 98 0 0"
+      }
+    },
+    {
+      "label": "Season 12",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "execute in season_12:overworld run tp @s 118 65 107 -90 0"
+      }
+    },
+    {
+      "label": "Season 13",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "execute in season_13:overworld run tp @s 0 100 0 180 0"
+      }
+    },
+    {
+      "label": "Season 14",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "execute in season_14:overworld run tp @s 0 100 0 180 0"
+      }
+    },
+    {
+      "label": "Testing",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "execute in minecraft:overworld run tp @s 0 100 0 90 0"
+      }
+    }
+  ]
+}

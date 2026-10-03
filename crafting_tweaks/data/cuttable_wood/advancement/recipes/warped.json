@@ -1,0 +1,37 @@
+{
+	"criteria": {
+		"has_a_ingredient": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "#warped_stems"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"recipes": [
+			"cuttable_wood:warped/blocks/full_blocks/log_from_wood",
+			"cuttable_wood:warped/blocks/full_blocks/log_to_wood",
+			"cuttable_wood:warped/blocks/full_blocks/planks_from_logs",
+			"cuttable_wood:warped/blocks/full_blocks/stripped_log_from_logs",
+			"cuttable_wood:warped/blocks/full_blocks/stripped_wood_from_logs",
+			"cuttable_wood:warped/blocks/slab_from_logs",
+			"cuttable_wood:warped/blocks/slab_from_planks",
+			"cuttable_wood:warped/blocks/stairs_from_logs",
+			"cuttable_wood:warped/blocks/stairs_from_planks",
+			"cuttable_wood:warped/misc/button_from_log",
+			"cuttable_wood:warped/misc/button_from_planks",
+			"cuttable_wood:warped/misc/door_from_log",
+			"cuttable_wood:warped/misc/fence_from_log",
+			"cuttable_wood:warped/misc/fence_gate_from_log",
+			"cuttable_wood:warped/misc/pressure_plate_from_log",
+			"cuttable_wood:warped/misc/shelf_from_log",
+			"cuttable_wood:warped/misc/sign_from_log",
+			"cuttable_wood:warped/misc/trapdoor_from_log",
+			"cuttable_wood:warped/misc/trapdoor_from_planks"
+		]
+	}
+}

@@ -1,0 +1,2 @@
+$execute if data storage reformat_and_style:variables {text:""} run function reformat_and_style:reset_component_shulker {component:"$(component)"}
+$execute unless data storage reformat_and_style:variables {text:""} run item modify entity @s weapon.mainhand {function:"minecraft:modify_contents",component:"minecraft:container",modifier:{"function":"minecraft:set_components","components":{"minecraft:$(component)":[{text:"$(text)",color:$(color),bold:$(bold),italic:$(italic)}]}}}

@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:confirmation",
+  "title": "Set Custom Model Data",
+  "pause": false,
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Enter your model ID to set a Custom Model."
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:carved_pumpkin",
+        "components": {
+          "minecraft:custom_model_data": {
+            "floats": [
+              1
+            ]
+          }
+        },
+        "count": 1
+      }
+    }
+  ],
+  "inputs": [
+    {
+      "type": "minecraft:text",
+      "key": "data",
+      "label": ""
+    }
+  ],
+  "yes": {
+    "label": {
+      "translate": "gui.done"
+    },
+    "action": {
+      "type": "minecraft:dynamic/run_command",
+      "template": "trigger CustomModelData set $(data)"
+    }
+  },
+  "no": {
+    "label": {
+      "translate": "gui.cancel"
+    }
+  }
+}

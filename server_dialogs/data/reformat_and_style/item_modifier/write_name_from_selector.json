@@ -1,0 +1,6 @@
+{
+  "function": "minecraft:set_name",
+  "name": {
+    "selector": "@e[type=item,tag=tempCopy,limit=1]"
+  }
+}

@@ -1,0 +1,8 @@
+{
+	"type": "stonecutting",
+	"ingredient": "#birch_logs",
+	"result": {
+		"id": "birch_button",
+		"count": 4
+	}
+}

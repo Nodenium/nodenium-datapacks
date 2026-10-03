@@ -1,0 +1,69 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Server Links",
+  "exit_action": {
+    "label": {
+      "translate": "gui.done"
+    },
+    "width": 200
+  },
+  "columns": 1,
+  "actions": [
+    {
+      "label": "Website",
+      "action": {
+        "type": "minecraft:open_url",
+        "url": "https://nodenium.com/"
+      }
+    },
+    {
+      "label": "Main Dynmap",
+      "action": {
+        "type": "minecraft:open_url",
+        "url": "https://project.map.nodenium.com/"
+      }
+    },
+    {
+      "label": "Testing Dynmap",
+      "action": {
+        "type": "minecraft:open_url",
+        "url": "https://test.map.nodenium.com/"
+      }
+    },
+    {
+      "label": "YouTube",
+      "action": {
+        "type": "minecraft:open_url",
+        "url": "https://www.youtube.com/@projectnodenium/"
+      }
+    },
+    {
+      "label": "Pinterest",
+      "action": {
+        "type": "minecraft:open_url",
+        "url": "https://pinterest.com/projectnodenium/"
+      }
+    },
+    {
+      "label": "Reddit",
+      "action": {
+        "type": "minecraft:open_url",
+        "url": "https://www.reddit.com/r/projectnodenium/"
+      }
+    },
+    {
+      "label": "Instagram",
+      "action": {
+        "type": "minecraft:open_url",
+        "url": "https://www.instagram.com/project_nodenium/"
+      }
+    },
+    {
+      "label": "Custom Resources",
+      "action": {
+        "type": "minecraft:open_url",
+        "url": "https://github.com/DebornMC/nodenium-custom-models/releases/"
+      }
+    }
+  ]
+}

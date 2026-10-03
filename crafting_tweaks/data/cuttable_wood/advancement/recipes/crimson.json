@@ -1,0 +1,37 @@
+{
+	"criteria": {
+		"has_a_ingredient": {
+			"trigger": "inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "#crimson_stems"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"recipes": [
+			"cuttable_wood:crimson/blocks/full_blocks/log_from_wood",
+			"cuttable_wood:crimson/blocks/full_blocks/log_to_wood",
+			"cuttable_wood:crimson/blocks/full_blocks/planks_from_logs",
+			"cuttable_wood:crimson/blocks/full_blocks/stripped_log_from_logs",
+			"cuttable_wood:crimson/blocks/full_blocks/stripped_wood_from_logs",
+			"cuttable_wood:crimson/blocks/slab_from_logs",
+			"cuttable_wood:crimson/blocks/slab_from_planks",
+			"cuttable_wood:crimson/blocks/stairs_from_logs",
+			"cuttable_wood:crimson/blocks/stairs_from_planks",
+			"cuttable_wood:crimson/misc/button_from_log",
+			"cuttable_wood:crimson/misc/button_from_planks",
+			"cuttable_wood:crimson/misc/door_from_log",
+			"cuttable_wood:crimson/misc/fence_from_log",
+			"cuttable_wood:crimson/misc/fence_gate_from_log",
+			"cuttable_wood:crimson/misc/pressure_plate_from_log",
+			"cuttable_wood:crimson/misc/shelf_from_log",
+			"cuttable_wood:crimson/misc/sign_from_log",
+			"cuttable_wood:crimson/misc/trapdoor_from_log",
+			"cuttable_wood:crimson/misc/trapdoor_from_planks"
+		]
+	}
+}

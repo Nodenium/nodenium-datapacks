@@ -1,0 +1,1 @@
+give @s minecraft:mangrove_propagule

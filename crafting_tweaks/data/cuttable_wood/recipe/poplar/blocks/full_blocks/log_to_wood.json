@@ -1,0 +1,7 @@
+{
+	"type": "stonecutting",
+	"ingredient": "poplar_log",
+	"result": {
+		"id": "poplar_wood"
+	}
+}

@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wooden_pickaxe"
+    },
+    "title": "Overqualified",
+    "description": "Enchant a Wooden Pickaxe. Unlocks a new recipe for Sand",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "s14_twist:main/root",
+  "criteria": {
+    "enchant_wooden_pickaxe": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:wooden_pickaxe"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "s14_twist:sand"
+    ]
+  }
+}

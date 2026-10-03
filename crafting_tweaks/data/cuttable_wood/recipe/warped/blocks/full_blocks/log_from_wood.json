@@ -1,0 +1,7 @@
+{
+	"type": "stonecutting",
+	"ingredient": "warped_hyphae",
+	"result": {
+		"id": "warped_stem"
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"type": "stonecutting",
+	"ingredient": "#poplar_logs",
+	"result": {
+		"id": "poplar_shelf",
+		"count": 1
+	}
+}

@@ -1,0 +1,27 @@
+execute if items entity @s weapon.mainhand minecraft:leather_helmet[minecraft:item_model="minecraft:carved_pumpkin"] run scoreboard players set @s already_convert_hat 1
+execute if items entity @s weapon.mainhand minecraft:chainmail_helmet[minecraft:item_model="minecraft:carved_pumpkin"] run scoreboard players set @s already_convert_hat 1
+execute if items entity @s weapon.mainhand minecraft:iron_helmet[minecraft:item_model="minecraft:carved_pumpkin"] run scoreboard players set @s already_convert_hat 1
+execute if items entity @s weapon.mainhand minecraft:golden_helmet[minecraft:item_model="minecraft:carved_pumpkin"] run scoreboard players set @s already_convert_hat 1
+execute if items entity @s weapon.mainhand minecraft:diamond_helmet[minecraft:item_model="minecraft:carved_pumpkin"] run scoreboard players set @s already_convert_hat 1
+execute if items entity @s weapon.mainhand minecraft:netherite_helmet[minecraft:item_model="minecraft:carved_pumpkin"] run scoreboard players set @s already_convert_hat 1
+
+execute if items entity @s[scores={already_convert_hat=0}] weapon.mainhand minecraft:leather_helmet run item modify entity @s weapon.mainhand {"function":"minecraft:set_components","components":{"minecraft:item_model":"minecraft:carved_pumpkin","minecraft:equippable":{"slot":"head","!asset_id":{}},"minecraft:enchantment_glint_override":false}}
+execute if items entity @s[scores={already_convert_hat=1}] weapon.mainhand minecraft:leather_helmet run item modify entity @s weapon.mainhand {"function":"minecraft:set_components","components":{"minecraft:item_model":"minecraft:leather_helmet","minecraft:equippable":{"slot":"head","asset_id":"minecraft:leather"},"minecraft:enchantment_glint_override":true}}
+
+execute if items entity @s[scores={already_convert_hat=0}] weapon.mainhand minecraft:chainmail_helmet run item modify entity @s weapon.mainhand {"function":"minecraft:set_components","components":{"minecraft:item_model":"minecraft:carved_pumpkin","minecraft:equippable":{"slot":"head","!asset_id":{}},"minecraft:enchantment_glint_override":false}}
+execute if items entity @s[scores={already_convert_hat=1}] weapon.mainhand minecraft:chainmail_helmet run item modify entity @s weapon.mainhand {"function":"minecraft:set_components","components":{"minecraft:item_model":"minecraft:chainmail_helmet","minecraft:equippable":{"slot":"head","asset_id":"minecraft:chainmail"},"minecraft:enchantment_glint_override":true}}
+
+execute if items entity @s[scores={already_convert_hat=0}] weapon.mainhand minecraft:iron_helmet run item modify entity @s weapon.mainhand {"function":"minecraft:set_components","components":{"minecraft:item_model":"minecraft:carved_pumpkin","minecraft:equippable":{"slot":"head","!asset_id":{}},"minecraft:enchantment_glint_override":false}}
+execute if items entity @s[scores={already_convert_hat=1}] weapon.mainhand minecraft:iron_helmet run item modify entity @s weapon.mainhand {"function":"minecraft:set_components","components":{"minecraft:item_model":"minecraft:iron_helmet","minecraft:equippable":{"slot":"head","asset_id":"minecraft:iron"},"minecraft:enchantment_glint_override":true}}
+
+execute if items entity @s[scores={already_convert_hat=0}] weapon.mainhand minecraft:golden_helmet run item modify entity @s weapon.mainhand {"function":"minecraft:set_components","components":{"minecraft:item_model":"minecraft:carved_pumpkin","minecraft:equippable":{"slot":"head","!asset_id":{}},"minecraft:enchantment_glint_override":false}}
+execute if items entity @s[scores={already_convert_hat=1}] weapon.mainhand minecraft:golden_helmet run item modify entity @s weapon.mainhand {"function":"minecraft:set_components","components":{"minecraft:item_model":"minecraft:golden_helmet","minecraft:equippable":{"slot":"head","asset_id":"minecraft:gold"},"minecraft:enchantment_glint_override":true}}
+
+execute if items entity @s[scores={already_convert_hat=0}] weapon.mainhand minecraft:diamond_helmet run item modify entity @s weapon.mainhand {"function":"minecraft:set_components","components":{"minecraft:item_model":"minecraft:carved_pumpkin","minecraft:equippable":{"slot":"head","!asset_id":{}},"minecraft:enchantment_glint_override":false}}
+execute if items entity @s[scores={already_convert_hat=1}] weapon.mainhand minecraft:diamond_helmet run item modify entity @s weapon.mainhand {"function":"minecraft:set_components","components":{"minecraft:item_model":"minecraft:diamond_helmet","minecraft:equippable":{"slot":"head","asset_id":"minecraft:diamond"},"minecraft:enchantment_glint_override":true}}
+
+execute if items entity @s[scores={already_convert_hat=0}] weapon.mainhand minecraft:netherite_helmet run item modify entity @s weapon.mainhand {"function":"minecraft:set_components","components":{"minecraft:item_model":"minecraft:carved_pumpkin","minecraft:equippable":{"slot":"head","!asset_id":{}},"minecraft:enchantment_glint_override":false}}
+execute if items entity @s[scores={already_convert_hat=1}] weapon.mainhand minecraft:netherite_helmet run item modify entity @s weapon.mainhand {"function":"minecraft:set_components","components":{"minecraft:item_model":"minecraft:netherite_helmet","minecraft:equippable":{"slot":"head","asset_id":"minecraft:netherite"},"minecraft:enchantment_glint_override":true}}
+
+scoreboard players set @s convert_hat 0
+scoreboard players set @s already_convert_hat 0

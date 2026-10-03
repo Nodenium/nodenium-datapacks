@@ -1,0 +1,16 @@
+{
+    "criteria": {
+      "egg_hit": {
+        "trigger": "minecraft:entity_killed_player",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:player",
+            "team": "zombie"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "z_tag:main"
+    }
+  }

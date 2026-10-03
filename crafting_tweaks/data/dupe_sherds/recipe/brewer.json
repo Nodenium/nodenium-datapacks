@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "x#x",
+    "x^x"
+  ],
+  "key": {
+    "x": "minecraft:brick",
+    "#": "minecraft:brewer_pottery_sherd",
+    "^": "minecraft:potion"
+  },
+  "result": {
+    "id": "minecraft:brewer_pottery_sherd",
+    "count": 8
+  }
+}

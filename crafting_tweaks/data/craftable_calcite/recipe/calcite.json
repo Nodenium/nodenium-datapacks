@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    "result": {
+        "id": "minecraft:calcite",
+        "count": 2
+    },
+    "pattern": [
+        "SQ",
+        "QS"
+    ],
+    "key": {
+        "Q":  "minecraft:quartz",
+        "S":  "minecraft:stone"
+    }
+}

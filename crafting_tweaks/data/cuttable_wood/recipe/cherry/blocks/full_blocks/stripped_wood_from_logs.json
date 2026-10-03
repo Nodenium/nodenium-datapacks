@@ -1,0 +1,11 @@
+{
+	"type": "stonecutting",
+	"ingredient": [
+		"cherry_log",
+		"cherry_wood",
+		"stripped_cherry_log"
+	],
+	"result": {
+		"id": "stripped_cherry_wood"
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"type": "stonecutting",
+	"ingredient": "bamboo_planks",
+	"result": {
+		"id": "bamboo_slab",
+		"count": 2
+	}
+}

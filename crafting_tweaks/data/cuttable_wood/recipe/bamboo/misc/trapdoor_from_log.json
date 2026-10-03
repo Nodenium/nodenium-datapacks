@@ -1,0 +1,8 @@
+{
+	"type": "stonecutting",
+	"ingredient": "#bamboo_blocks",
+	"result": {
+		"id": "bamboo_trapdoor",
+		"count": 2
+	}
+}

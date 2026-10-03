@@ -1,0 +1,7 @@
+{
+	"type": "stonecutting",
+	"ingredient": "dark_oak_planks",
+	"result": {
+		"id": "dark_oak_stairs"
+	}
+}

@@ -1,0 +1,7 @@
+{
+	"type": "stonecutting",
+	"ingredient": "bamboo_block",
+	"result": {
+		"id": "bamboo_wood"
+	}
+}

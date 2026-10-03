@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "x#x",
+    "x^x"
+  ],
+  "key": {
+    "x": "minecraft:brick",
+    "#": "minecraft:heartbreak_pottery_sherd",
+    "^": "minecraft:ghast_tear"
+  },
+  "result": {
+    "id": "minecraft:heartbreak_pottery_sherd",
+    "count": 8
+  }
+}

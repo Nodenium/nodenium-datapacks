@@ -1,0 +1,7 @@
+{
+	"type": "stonecutting",
+	"ingredient": "cherry_planks",
+	"result": {
+		"id": "cherry_button"
+	}
+}

@@ -1,0 +1,7 @@
+{
+	"type": "stonecutting",
+	"ingredient": "warped_planks",
+	"result": {
+		"id": "warped_trapdoor"
+	}
+}

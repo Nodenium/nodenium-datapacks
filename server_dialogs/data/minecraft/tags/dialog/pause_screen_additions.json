@@ -1,0 +1,9 @@
+{
+    "values": [
+        "reformat_and_style:set_custom_name",
+        "reformat_and_style:set_display_data",
+        "reformat_and_style:set_lore",
+        "set_custom_model_data:set_custom_model_data",
+        "server_links:server_links"
+    ]
+}

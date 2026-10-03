@@ -1,0 +1,15 @@
+{
+  "type": "crafting_shaped",
+  "group": "bark",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#":"minecraft:jungle_log"
+  },
+  "result": {
+    "id": "minecraft:jungle_wood",
+    "count": 4
+  }
+}

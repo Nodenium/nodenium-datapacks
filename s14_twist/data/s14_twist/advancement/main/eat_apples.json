@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:apple"
+    },
+    "title": "An Apple A Day",
+    "description": "Eat every type of apple. Unlocks a recipe for Coral Blocks",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "s14_twist:main/root",
+  "criteria": {
+    "consume_apple": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "apple"
+        }
+      }
+    },
+    "consume_golden_apple": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "golden_apple"
+        }
+      }
+    },
+    "consume_enchanted_golden_apple": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "enchanted_golden_apple"
+        }
+      }
+    }
+  },
+    "rewards": {
+    "recipes": [
+      "s14_twist:bubble_coral",
+      "s14_twist:fire_coral",
+      "s14_twist:horn_coral",
+      "s14_twist:brain_coral",
+      "s14_twist:tube_coral"
+    ]
+  }
+}

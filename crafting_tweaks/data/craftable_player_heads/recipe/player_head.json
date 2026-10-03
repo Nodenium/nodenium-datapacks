@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "pattern": [
+    "#"
+  ],
+  "key": {
+    "#": "terracotta"
+  },
+  "ingredients": [
+    "#minecraft:terracotta"
+  ],
+  "result": {
+    "id": "minecraft:player_head",
+    "count": 9
+  }
+}

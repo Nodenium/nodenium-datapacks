@@ -1,0 +1,7 @@
+{
+	"type": "stonecutting",
+	"ingredient": "crimson_stem",
+	"result": {
+		"id": "crimson_hyphae"
+	}
+}

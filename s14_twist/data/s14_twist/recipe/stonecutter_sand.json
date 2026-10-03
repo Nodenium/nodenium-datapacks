@@ -1,0 +1,18 @@
+{
+    "type" : "minecraft:crafting_shaped" ,
+    "category" : "misc" ,
+    "pattern" : [
+        "sss" ,
+        "s s" ,
+        "sss"
+    ] ,
+    "key" : {
+        "s": [
+            "minecraft:stone"
+        ]
+    },
+    "result" : {
+        "id" : "minecraft:sand" ,
+        "count" : 8
+    }
+}

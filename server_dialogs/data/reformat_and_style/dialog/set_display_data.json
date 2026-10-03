@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:confirmation",
+  "title": "Set Display Data",
+  "pause": false,
+  "inputs": [
+    {
+      "type": "minecraft:boolean",
+      "key": "shulker_mode",
+      "label": "Shulker Mode"
+    },
+    {
+      "type": "minecraft:text",
+      "key": "item_model",
+      "label": "Item Model",
+      "max_length": 256
+    },
+    {
+      "type": "minecraft:text",
+      "key": "tooltip_style",
+      "label": "Tooltip Style",
+      "max_length": 256
+    }
+  ],
+  "yes": {
+    "label": {
+      "translate": "gui.done",
+      "fallback": "Done"
+    },
+    "action": {
+      "type": "minecraft:dynamic/run_command",
+      "template": "/function reformat_and_style:prepare_display_data {item_model:\"$(item_model)\",tooltip_style:\"$(tooltip_style)\",shulker_mode:$(shulker_mode)}"
+    }
+  },
+  "no": {
+    "label": {
+      "translate": "gui.cancel",
+      "fallback": "Cancel"
+    }
+  }
+}

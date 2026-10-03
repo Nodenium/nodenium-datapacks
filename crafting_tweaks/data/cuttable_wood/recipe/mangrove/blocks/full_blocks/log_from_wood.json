@@ -1,0 +1,7 @@
+{
+	"type": "stonecutting",
+	"ingredient": "mangrove_wood",
+	"result": {
+		"id": "mangrove_log"
+	}
+}

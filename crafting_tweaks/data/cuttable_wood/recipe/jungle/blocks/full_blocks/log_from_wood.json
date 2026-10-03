@@ -1,0 +1,7 @@
+{
+	"type": "stonecutting",
+	"ingredient": "jungle_wood",
+	"result": {
+		"id": "jungle_log"
+	}
+}

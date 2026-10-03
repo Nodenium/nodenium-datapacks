@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    [
+      "minecraft:exposed_cut_copper"
+    ],
+    [
+      "minecraft:copper_torch"
+    ]
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:exposed_copper_lantern"
+  }
+}

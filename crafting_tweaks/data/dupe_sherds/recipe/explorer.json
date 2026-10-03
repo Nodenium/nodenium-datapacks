@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "x#x",
+    "x^x"
+  ],
+  "key": {
+    "x": "minecraft:brick",
+    "#": "minecraft:explorer_pottery_sherd",
+    "^": "minecraft:map"
+  },
+  "result": {
+    "id": "minecraft:explorer_pottery_sherd",
+    "count": 8
+  }
+}

@@ -1,0 +1,7 @@
+{
+	"type": "stonecutting",
+	"ingredient": "acacia_wood",
+	"result": {
+		"id": "acacia_log"
+	}
+}

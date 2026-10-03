@@ -1,0 +1,21 @@
+{
+    "type" : "minecraft:crafting_shaped" ,
+    "category" : "misc" ,
+    "pattern" : [
+        "ccc" ,
+        "cmc" ,
+        "ccc"
+    ] ,
+    "key" : {
+        "c": [
+            "minecraft:clay_ball"
+        ],
+        "m":[
+            "minecraft:magenta_dye"
+        ]
+    },
+    "result" : {
+        "id" : "minecraft:magenta_terracotta" ,
+        "count" : 4
+    }
+}

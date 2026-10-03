@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cod"
+    },
+    "title": "Smells Fishy",
+    "description": "Slap another player with a fish. Receive 1 Dark Oak Sapling",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "s14_twist:main/root",
+  "criteria": {
+    "wooden_shovel": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "source_entity": {
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:cod",
+                    "minecraft:salmon",
+                    "minecraft:cooked_salmon",
+                    "minecraft:cooked_cod",
+                    "minecraft:tropical_fish"
+                  ]
+                }
+              }
+            },
+            "tags": [
+              {
+                "id": "minecraft:is_player_attack",
+                "expected": true
+              }
+            ]
+          }
+        },
+        "entity": {
+          "minecraft:entity_type": "minecraft:player"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "s14_twist:give_dark_oak"
+  }
+}

@@ -1,0 +1,11 @@
+execute positioned ~ ~ ~ run function reformat_and_style:anvil_scan/check_anvil
+execute positioned ~ ~-1 ~ run function reformat_and_style:anvil_scan/check_anvil
+execute positioned ~ ~-2 ~ run function reformat_and_style:anvil_scan/check_anvil
+execute positioned ~ ~-3 ~ run function reformat_and_style:anvil_scan/check_anvil
+execute positioned ~ ~-4 ~ run function reformat_and_style:anvil_scan/check_anvil
+execute positioned ~ ~-5 ~ run function reformat_and_style:anvil_scan/check_anvil
+execute positioned ~ ~1 ~ run function reformat_and_style:anvil_scan/check_anvil
+execute positioned ~ ~2 ~ run function reformat_and_style:anvil_scan/check_anvil
+execute positioned ~ ~3 ~ run function reformat_and_style:anvil_scan/check_anvil
+execute positioned ~ ~4 ~ run function reformat_and_style:anvil_scan/check_anvil
+execute positioned ~ ~5 ~ run function reformat_and_style:anvil_scan/check_anvil
