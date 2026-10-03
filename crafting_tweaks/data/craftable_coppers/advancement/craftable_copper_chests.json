@@ -1,0 +1,64 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_chest"
+    },
+    "title": "Craftable Copper Chests",
+    "description": [
+      {
+        "text": "  ",
+        "color": "white"
+      },
+      {
+        "sprite": "minecraft:block/cut_copper",
+        "color": "white"
+      },
+      "  ",
+      "\n",
+      {
+        "sprite": "minecraft:block/cut_copper",
+        "color": "white"
+      },
+      {
+        "player": {
+          "properties": [
+            {
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDVjNmRjMmJiZjUxYzM2Y2ZjNzcxNDU4NWE2YTU2ODNlZjJiMTRkNDdkOGZmNzE0NjU0YTg5M2Y1ZGE2MjIifX19",
+              "name": "textures"
+            }
+          ]
+        }
+      },
+      {
+        "sprite": "minecraft:block/cut_copper",
+        "color": "white"
+      },
+      " → ",
+      {
+        "player": {
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmE3ODQ4ZGZlNTk3OTk1ZDA0ZTgyMmFjNTM4NzhhMjllZDgxZTFmMTUyODQ4ZjE4MjNjYjM1MjljNDdlMWNlZiJ9fX0="
+            }
+          ]
+        }
+      },
+      "\n",
+      "  ",
+      {
+        "sprite": "minecraft:block/cut_copper",
+        "color": "white"
+      },
+      "  "
+    ],
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "crafting_tweaks:crafting_table",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

@@ -1,5 +1,6 @@
 {
     "type": "crafting_shaped",
+    "category": "building",
     "result": {
         "id": "minecraft:calcite",
         "count": 2

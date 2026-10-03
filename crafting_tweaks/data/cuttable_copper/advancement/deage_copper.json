@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:exposed_copper"
+    },
+    "title": "Deage Copper",
+    "description": [
+      {
+        "sprite": "minecraft:block/oxidized_copper",
+        "color": "white"
+      },
+      {
+        "text": " → ",
+        "color": "white"
+      },
+      {
+        "sprite": "minecraft:block/weathered_copper",
+        "color": "white"
+      },
+      "\n",
+      {
+        "text": "Available for any oxidation stage",
+        "color": "gray"
+      }
+    ],
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "cuttable_copper:cuttable_copper",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

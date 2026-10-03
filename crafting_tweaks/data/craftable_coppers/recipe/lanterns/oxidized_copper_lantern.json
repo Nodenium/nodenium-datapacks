@@ -1,0 +1,18 @@
+{
+  "type": "crafting_shaped",
+  "category": "building",
+  "group": "copper_lanterns",
+  "pattern": [
+    " # ",
+    "#T#",
+    " # "
+  ],
+  "key": {
+    "#": "oxidized_cut_copper",
+    "T": "copper_torch"
+  },
+  "result": {
+    "id": "oxidized_copper_lantern",
+    "count": 5
+  }
+}

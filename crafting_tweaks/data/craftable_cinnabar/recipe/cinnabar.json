@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "S#",
+    "#S"
+  ],
+  "key": {
+    "S": "sulfur",
+    "#": "granite"
+  },
+  "result": {
+    "id": "minecraft:cinnabar",
+    "count": 4
+  }
+}

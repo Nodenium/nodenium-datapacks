@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "group": "amethyst_buds",
-  "ingredient": "minecraft:amethyst_block",
-  "result": {
-    "count": 1,
-    "id": "minecraft:amethyst_cluster"
-  }
-}

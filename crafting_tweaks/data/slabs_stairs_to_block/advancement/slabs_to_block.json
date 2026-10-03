@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_slab"
+    },
+    "title": "Slabs to Blocks",
+    "description": [
+      {
+        "color": "white",
+        "text": ""
+      },
+      {
+        "player": {
+          "properties": [
+            {
+              "name": "textures",
+              "value": "ewogICJ0aW1lc3RhbXAiIDogMTc5MTA0MzY1NTIzOSwKICAicHJvZmlsZUlkIiA6ICJiODkwMDcyZDk0MzQ0YWY3YTY5NDY5ODU3ODUzNmQwMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJkZWJvcm4iLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWIwNDI3NDM1MDY1MmJiNDBjZDVhNjA0ZDMxMjNhMjY4YjU5OWFmZmU1M2FjZjg0NzFkM2NlZWFlOWY2ZDFjZSIKICAgIH0KICB9Cn0="
+            }
+          ]
+        }
+      },
+      {
+        "player": {
+          "properties": [
+            {
+              "name": "textures",
+              "value": "ewogICJ0aW1lc3RhbXAiIDogMTc5MTA0MzY1NTIzOSwKICAicHJvZmlsZUlkIiA6ICJiODkwMDcyZDk0MzQ0YWY3YTY5NDY5ODU3ODUzNmQwMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJkZWJvcm4iLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWIwNDI3NDM1MDY1MmJiNDBjZDVhNjA0ZDMxMjNhMjY4YjU5OWFmZmU1M2FjZjg0NzFkM2NlZWFlOWY2ZDFjZSIKICAgIH0KICB9Cn0="
+            }
+          ]
+        }
+      },
+      " → ",
+      {
+        "sprite": "minecraft:block/oak_planks"
+      },
+      "\n",
+      {
+        "text": "Works for all slabs",
+        "color": "gray"
+      }
+    ],
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "crafting_tweaks:crafting_table",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

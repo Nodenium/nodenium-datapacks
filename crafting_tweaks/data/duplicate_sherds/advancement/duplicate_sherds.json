@@ -1,0 +1,57 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:angler_pottery_sherd"
+    },
+    "title": "Duplicate Sherds",
+    "description": [
+      {
+        "text": "  ",
+        "color": "white"
+      },
+      {
+        "atlas": "items",
+        "sprite": "minecraft:item/brick",
+        "color": "white"
+      },
+      "\n",
+      {
+        "atlas": "items",
+        "sprite": "minecraft:item/brick",
+        "color": "white"
+      },
+      {
+        "atlas": "items",
+        "sprite": "minecraft:item/angler_pottery_sherd",
+        "color": "white"
+      },
+      {
+        "atlas": "items",
+        "sprite": "minecraft:item/brick",
+        "color": "white"
+      },
+      " → ",
+      {
+        "atlas": "items",
+        "sprite": "minecraft:item/angler_pottery_sherd",
+        "color": "white"
+      },
+      " x2",
+      "\n",
+      "  ",
+      {
+        "atlas": "items",
+        "sprite": "minecraft:item/brick",
+        "color": "white"
+      }
+    ],
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "crafting_tweaks:crafting_table",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

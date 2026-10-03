@@ -1,0 +1,52 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_block"
+    },
+    "title": "More Cuttable Copper",
+    "description": [
+      {
+        "sprite": "minecraft:block/copper_block",
+        "color": "white"
+      },
+      {
+        "text": " → ",
+        "color": "white"
+      },
+      {
+        "sprite": "minecraft:block/copper_door_top",
+        "color": "white"
+      },
+      {
+        "sprite": "minecraft:block/copper_trapdoor",
+        "color": "white"
+      },
+      {
+        "sprite": "minecraft:block/copper_bars",
+        "color": "white"
+      },
+      {
+        "atlas": "items",
+        "sprite": "minecraft:item/copper_chain",
+        "color": "white"
+      },
+      {
+        "sprite": "minecraft:block/lightning_rod",
+        "color": "white"
+      },
+      "\n",
+      {
+        "text": "Available for any oxidation stage",
+        "color": "gray"
+      }
+    ],
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "crafting_tweaks:stonecutter",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

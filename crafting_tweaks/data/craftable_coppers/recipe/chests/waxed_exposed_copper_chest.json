@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "category": "building",
+  "group": "copper_chests",
+  "pattern": [
+    "###",
+    "#C#",
+    "###"
+  ],
+  "key": {
+    "#": "waxed_exposed_cut_copper",
+    "C": "chest"
+  },
+  "result": {
+    "id": "waxed_exposed_copper_chest"
+  }
+}

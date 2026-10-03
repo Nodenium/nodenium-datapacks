@@ -1,0 +1,68 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:red_terracotta"
+    },
+    "title": "Universal Dying",
+    "description": [
+      {
+        "sprite": "minecraft:block/blue_terracotta",
+        "color": "white"
+      },
+      {
+        "sprite": "minecraft:block/orange_terracotta",
+        "color": "white"
+      },
+      {
+        "sprite": "minecraft:block/yellow_terracotta",
+        "color": "white"
+      },
+      "\n",
+      {
+        "sprite": "minecraft:block/purple_terracotta",
+        "color": "white"
+      },
+      {
+        "atlas": "items",
+        "sprite": "minecraft:item/red_dye",
+        "color": "white"
+      },
+      {
+        "sprite": "minecraft:block/pink_terracotta",
+        "color": "white"
+      },
+      " → ",
+      {
+        "sprite": "minecraft:block/red_terracotta",
+        "color": "white"
+      },
+      " x8",
+      "\n",
+      {
+        "sprite": "minecraft:block/light_blue_terracotta",
+        "color": "white"
+      },
+      {
+        "sprite": "minecraft:block/magenta_terracotta",
+        "color": "white"
+      },
+      {
+        "sprite": "minecraft:block/green_terracotta",
+        "color": "white"
+      },
+      "\n",
+      {
+        "text": "Redye any dyable block to another color",
+        "color": "gray"
+      }
+    ],
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "crafting_tweaks:crafting_table",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

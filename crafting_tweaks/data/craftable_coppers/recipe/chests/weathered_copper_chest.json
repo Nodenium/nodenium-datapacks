@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "category": "building",
+  "group": "copper_chests",
+  "pattern": [
+    "###",
+    "#C#",
+    "###"
+  ],
+  "key": {
+    "#": "weathered_cut_copper",
+    "C": "chest"
+  },
+  "result": {
+    "id": "weathered_copper_chest"
+  }
+}

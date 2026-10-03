@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tall_grass"
+    },
+    "title": "Craftable Tall Grass",
+    "description": [
+      {
+        "sprite": "minecraft:block/short_grass",
+        "color": "#7CBD6B"
+      },
+      {
+        "sprite": "minecraft:block/short_grass",
+        "color": "#7CBD6B"
+      },
+      {
+        "text": " → ",
+        "color": "white"
+      },
+      {
+        "sprite": "minecraft:block/tall_grass_top",
+        "color": "#7CBD6B"
+      }
+    ],
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "crafting_tweaks:crafting_table",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

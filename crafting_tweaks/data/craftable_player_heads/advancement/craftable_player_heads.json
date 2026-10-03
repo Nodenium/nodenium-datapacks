@@ -1,0 +1,65 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head"
+    },
+    "title": "Craftable Player Heads",
+    "description": [
+      {
+        "sprite": "minecraft:block/terracotta",
+        "color": "white"
+      },
+      {
+        "sprite": "minecraft:block/terracotta",
+        "color": "white"
+      },
+      {
+        "sprite": "minecraft:block/terracotta",
+        "color": "white"
+      },
+      "\n",
+      {
+        "sprite": "minecraft:block/terracotta",
+        "color": "white"
+      },
+      "  ",
+      {
+        "sprite": "minecraft:block/terracotta",
+        "color": "white"
+      },
+      " → ",
+      {
+        "player": {
+          "name": ""
+        }
+      },
+      " x9",
+      "\n",
+      {
+        "sprite": "minecraft:block/terracotta",
+        "color": "white"
+      },
+      {
+        "sprite": "minecraft:block/terracotta",
+        "color": "white"
+      },
+      {
+        "sprite": "minecraft:block/terracotta",
+        "color": "white"
+      },
+      "\n",
+      {
+        "text": "Rename to a player's name in an anvil to retexture",
+        "color": "gray"
+      }
+    ],
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "crafting_tweaks:crafting_table",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

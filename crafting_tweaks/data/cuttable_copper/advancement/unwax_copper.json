@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:waxed_weathered_copper"
+    },
+    "title": "Unwax Copper",
+    "description": [
+      {
+        "sprite": "minecraft:block/weathered_copper",
+        "color": "#ffdfac"
+      },
+      {
+        "text": " → ",
+        "color": "white"
+      },
+      {
+        "sprite": "minecraft:block/weathered_copper",
+        "color": "white"
+      },
+      "\n",
+      {
+        "text": "Available for any oxidation stage",
+        "color": "gray"
+      }
+    ],
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "cuttable_copper:deage_copper",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

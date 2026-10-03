@@ -1,12 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "category": "building",
-  "pattern": [
-    "#"
-  ],
-  "key": {
-    "#": "terracotta"
-  },
+  "category": "misc",
   "ingredients": [
     "#minecraft:terracotta"
   ],

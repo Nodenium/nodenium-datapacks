@@ -1,0 +1,86 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dispenser"
+    },
+    "title": "Dropper to Dispenser",
+    "description": [
+      {
+        "text": "  ",
+        "color": "white"
+      },
+      {
+        "atlas": "items",
+        "sprite": "minecraft:item/string",
+        "color": "white"
+      },
+      {
+        "atlas": "items",
+        "sprite": "minecraft:item/stick",
+        "color": "white"
+      },
+      "\n",
+      {
+        "atlas": "items",
+        "sprite": "minecraft:item/string",
+        "color": "white"
+      },
+      {
+        "sprite": "minecraft:block/dropper_front",
+        "color": "white"
+      },
+      {
+        "atlas": "items",
+        "sprite": "minecraft:item/stick",
+        "color": "white"
+      },
+      " → ",
+      {
+        "sprite": "minecraft:block/dispenser_front",
+        "color": "white"
+      },
+      "\n",
+      "  ",
+      {
+        "atlas": "items",
+        "sprite": "minecraft:item/string",
+        "color": "white"
+      },
+      {
+        "atlas": "items",
+        "sprite": "minecraft:item/stick",
+        "color": "white"
+      },
+      "\n",
+      "\n",
+      {
+        "text": "or",
+        "color": "gray",
+        "italic": true
+      },
+      "\n",
+      "\n",
+      "  ",
+      {
+        "sprite": "minecraft:block/dropper_front",
+        "color": "white"
+      },
+      {
+        "atlas": "items",
+        "sprite": "minecraft:item/bow"
+      },
+      " → ",
+      {
+        "sprite": "minecraft:block/dispenser_front"
+      }
+    ],
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "crafting_tweaks:crafting_table",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

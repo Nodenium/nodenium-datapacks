@@ -1,0 +1,75 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_stairs"
+    },
+    "title": "Stairs to Blocks",
+    "description": [
+      {
+        "player": {
+          "properties": [
+            {
+              "name": "textures",
+              "value": "ewogICJ0aW1lc3RhbXAiIDogMTc5MTA0MjkxMDI2NCwKICAicHJvZmlsZUlkIiA6ICJiODkwMDcyZDk0MzQ0YWY3YTY5NDY5ODU3ODUzNmQwMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJkZWJvcm4iLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTI1NTFkNmI2MjdlNmM5NTE0YmZlMDhlYTMxNTVmZjRjY2NkM2M0NjU5YTZhM2I5MmY2MWFhYzcyMmYwMjBhYyIKICAgIH0KICB9Cn0="
+            }
+          ]
+        },
+        "color": "white"
+      },
+      {
+        "player": {
+          "properties": [
+            {
+              "name": "textures",
+              "value": "ewogICJ0aW1lc3RhbXAiIDogMTc5MTA0MjkxMDI2NCwKICAicHJvZmlsZUlkIiA6ICJiODkwMDcyZDk0MzQ0YWY3YTY5NDY5ODU3ODUzNmQwMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJkZWJvcm4iLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTI1NTFkNmI2MjdlNmM5NTE0YmZlMDhlYTMxNTVmZjRjY2NkM2M0NjU5YTZhM2I5MmY2MWFhYzcyMmYwMjBhYyIKICAgIH0KICB9Cn0="
+            }
+          ]
+        },
+        "color": "white"
+      },
+      "  ",
+      "\n",
+      {
+        "player": {
+          "properties": [
+            {
+              "name": "textures",
+              "value": "ewogICJ0aW1lc3RhbXAiIDogMTc5MTA0MjkxMDI2NCwKICAicHJvZmlsZUlkIiA6ICJiODkwMDcyZDk0MzQ0YWY3YTY5NDY5ODU3ODUzNmQwMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJkZWJvcm4iLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTI1NTFkNmI2MjdlNmM5NTE0YmZlMDhlYTMxNTVmZjRjY2NkM2M0NjU5YTZhM2I5MmY2MWFhYzcyMmYwMjBhYyIKICAgIH0KICB9Cn0="
+            }
+          ]
+        },
+        "color": "white"
+      },
+      {
+        "player": {
+          "properties": [
+            {
+              "name": "textures",
+              "value": "ewogICJ0aW1lc3RhbXAiIDogMTc5MTA0MjkxMDI2NCwKICAicHJvZmlsZUlkIiA6ICJiODkwMDcyZDk0MzQ0YWY3YTY5NDY5ODU3ODUzNmQwMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJkZWJvcm4iLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTI1NTFkNmI2MjdlNmM5NTE0YmZlMDhlYTMxNTVmZjRjY2NkM2M0NjU5YTZhM2I5MmY2MWFhYzcyMmYwMjBhYyIKICAgIH0KICB9Cn0="
+            }
+          ]
+        },
+        "color": "white"
+      },
+      " → ",
+      {
+        "sprite": "minecraft:block/oak_planks",
+        "color": "white"
+      },
+      " x3",
+      "\n",
+      {
+        "text": "Works for all stairs",
+        "color": "gray"
+      }
+    ],
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "slabs_stairs_to_block:slabs_to_block",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

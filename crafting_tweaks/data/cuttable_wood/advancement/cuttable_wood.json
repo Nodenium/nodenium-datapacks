@@ -1,0 +1,72 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_log"
+    },
+    "title": "Cuttable Wood",
+    "description": [
+      {
+        "sprite": "minecraft:block/oak_log_top",
+        "color": "white"
+      },
+      {
+        "text": " → ",
+        "color": "white"
+      },
+      {
+        "sprite": "minecraft:block/oak_log",
+        "color": "white"
+      },
+      {
+        "sprite": "minecraft:block/oak_planks",
+        "color": "white"
+      },
+      {
+        "sprite": "minecraft:block/stripped_oak_log_top",
+        "color": "white"
+      },
+      {
+        "sprite": "minecraft:block/stripped_oak_log",
+        "color": "white"
+      },
+      {
+        "player": {
+          "properties": [
+            {
+              "name": "textures",
+              "value": "ewogICJ0aW1lc3RhbXAiIDogMTc5MTA0MzY1NTIzOSwKICAicHJvZmlsZUlkIiA6ICJiODkwMDcyZDk0MzQ0YWY3YTY5NDY5ODU3ODUzNmQwMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJkZWJvcm4iLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWIwNDI3NDM1MDY1MmJiNDBjZDVhNjA0ZDMxMjNhMjY4YjU5OWFmZmU1M2FjZjg0NzFkM2NlZWFlOWY2ZDFjZSIKICAgIH0KICB9Cn0="
+            }
+          ]
+        },
+        "color": "white"
+      },
+      {
+        "player": {
+          "properties": [
+            {
+              "name": "textures",
+              "value": "ewogICJ0aW1lc3RhbXAiIDogMTc5MTA0MjkxMDI2NCwKICAicHJvZmlsZUlkIiA6ICJiODkwMDcyZDk0MzQ0YWY3YTY5NDY5ODU3ODUzNmQwMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJkZWJvcm4iLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTI1NTFkNmI2MjdlNmM5NTE0YmZlMDhlYTMxNTVmZjRjY2NkM2M0NjU5YTZhM2I5MmY2MWFhYzcyMmYwMjBhYyIKICAgIH0KICB9Cn0="
+            }
+          ]
+        },
+        "color": "white"
+      },
+      {
+        "sprite": "minecraft:block/oak_door_top",
+        "color": "white"
+      },
+      {
+        "sprite": "minecraft:block/oak_trapdoor",
+        "color": "white"
+      }
+    ],
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "crafting_tweaks:stonecutter",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

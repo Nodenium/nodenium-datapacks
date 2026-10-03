@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crafting_table"
+    },
+    "title": "Crafting Tweaks",
+    "frame": "challenge",
+    "description": [
+      ""
+    ],
+    "background": "minecraft:block/black_concrete",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

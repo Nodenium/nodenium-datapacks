@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stonecutter"
+    },
+    "title": "Stonecutter Tweaks",
+    "frame": "challenge",
+    "description": [
+      ""
+    ],
+    "background": "minecraft:block/black_concrete",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

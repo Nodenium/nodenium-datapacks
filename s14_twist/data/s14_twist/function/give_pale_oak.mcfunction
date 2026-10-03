@@ -1,1 +1,0 @@
-give @s minecraft:pale_oak_sapling

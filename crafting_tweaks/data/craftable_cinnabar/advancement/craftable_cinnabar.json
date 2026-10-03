@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cinnabar"
+    },
+    "title": "Craftable Cinnabar",
+    "description": [
+      {
+        "sprite": "minecraft:block/sulfur",
+        "color": "white"
+      },
+      {
+        "sprite": "minecraft:block/granite",
+        "color": "white"
+      },
+      "  ",
+      "\n",
+      {
+        "sprite": "minecraft:block/granite",
+        "color": "white"
+      },
+      {
+        "sprite": "minecraft:block/sulfur",
+        "color": "white"
+      },
+      " → ",
+      {
+        "sprite": "minecraft:block/cinnabar",
+        "color": "white"
+      }
+    ],
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "crafting_tweaks:crafting_table",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

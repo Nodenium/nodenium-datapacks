@@ -1,0 +1,54 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_lantern"
+    },
+    "title": "Craftable Copper Lanterns",
+    "description": [
+      {
+        "text": "  ",
+        "color": "white"
+      },
+      {
+        "sprite": "minecraft:block/cut_copper",
+        "color": "white"
+      },
+      "  ",
+      "\n",
+      {
+        "sprite": "minecraft:block/cut_copper",
+        "color": "white"
+      },
+      {
+        "sprite": "minecraft:block/copper_torch",
+        "color": "white"
+      },
+      {
+        "sprite": "minecraft:block/cut_copper",
+        "color": "white"
+      },
+      " → ",
+      {
+        "atlas": "items",
+        "sprite": "minecraft:item/copper_lantern",
+        "color": "white"
+      },
+      "x9",
+      "\n",
+      "  ",
+      {
+        "sprite": "minecraft:block/cut_copper",
+        "color": "white"
+      },
+      "  "
+    ],
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "craftable_coppers:craftable_copper_chests",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

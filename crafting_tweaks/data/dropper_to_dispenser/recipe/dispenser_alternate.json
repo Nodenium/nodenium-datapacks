@@ -1,5 +1,6 @@
 {
     "type": "crafting_shapeless",
+    "category": "misc",
     "result": {
         "id": "minecraft:dispenser",
         "count": 1

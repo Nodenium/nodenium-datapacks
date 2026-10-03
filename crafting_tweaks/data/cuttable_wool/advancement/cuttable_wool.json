@@ -1,0 +1,63 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:white_wool"
+    },
+    "title": "Cuttable Wool",
+    "description": [
+      {
+        "sprite": "minecraft:block/white_wool",
+        "color": "white"
+      },
+      {
+        "text": " → ",
+        "color": "white"
+      },
+      {
+        "player": {
+          "properties": [
+            {
+              "name": "textures",
+              "value": "ewogICJ0aW1lc3RhbXAiIDogMTc5MTA0ODgxODk4MSwKICAicHJvZmlsZUlkIiA6ICJiODkwMDcyZDk0MzQ0YWY3YTY5NDY5ODU3ODUzNmQwMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJkZWJvcm4iLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTQ2OTljMzExZDFlYzRmNzZkY2MyNTgyODkzZGI5ZTg5ZTRjMWU3YzdhZTRmNzZjYTk1ZDEzZmQyOWEwMDNiZiIKICAgIH0KICB9Cn0="
+            }
+          ]
+        },
+        "color": "white"
+      },
+      {
+        "player": {
+          "properties": [
+            {
+              "name": "textures",
+              "value": "ewogICJ0aW1lc3RhbXAiIDogMTc5MTA0ODg5NDk2NSwKICAicHJvZmlsZUlkIiA6ICJiODkwMDcyZDk0MzQ0YWY3YTY5NDY5ODU3ODUzNmQwMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJkZWJvcm4iLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmQ5YjdmYmRjZmU4YjEwZjliMTU4YmY2OThlNmJlZTc4MzJhNTYxN2Q0NGE0MGJhNzM4NzNmOTVkZjFhMjk2YiIKICAgIH0KICB9Cn0="
+            }
+          ]
+        },
+        "color": "white"
+      },
+      {
+        "player": {
+          "properties": [
+            {
+              "name": "textures",
+              "value": "ewogICJ0aW1lc3RhbXAiIDogMTc5MTA0ODkyNzc1MywKICAicHJvZmlsZUlkIiA6ICJiODkwMDcyZDk0MzQ0YWY3YTY5NDY5ODU3ODUzNmQwMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJkZWJvcm4iLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzU0NDgxMmNiZDg1NDA4OTc5MDE2NjQ3ZmZjMTZlMjIyNDc2NmQzNTBlODg0NDI3ZWE3MGM2MGMxYzE2ZTUzNCIKICAgIH0KICB9Cn0="
+            }
+          ]
+        },
+        "color": "white"
+      },
+      {
+        "sprite": "minecraft:item/white_cushion",
+        "color": "white"
+      }
+    ],
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "crafting_tweaks:stonecutter",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "minecraft:mushroom_stem",
+  "result": {
+    "id": "minecraft:mushroom_stem",
+    "count": 1,
+    "components": {
+      "minecraft:block_state": {
+        "down": "false",
+        "east": "false",
+        "north": "false",
+        "south": "false",
+        "up": "false",
+        "west": "false"
+      },
+      "minecraft:lore": [
+        {
+          "italic": false,
+          "text": "stripped: ",
+          "extra": [
+            {
+              "text": "true",
+              "color": "green"
+            }
+          ],
+          "color": "gray"
+        }
+      ],
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:block_state"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "group": "sherd_duplication",
+    "key": {
+        "#": "minecraft:brick",
+        "A": "minecraft:sheaf_pottery_sherd"
+    },
+    "pattern": [
+        " # ",
+        "#A#",
+        " # "
+    ],
+    "result": {
+        "id": "minecraft:sheaf_pottery_sherd",
+        "count": 2
+    }
+}
