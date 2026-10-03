@@ -1,1 +1,0 @@
-execute if block ~ ~ ~ #anvil run scoreboard players set @s anvil_nearby 1

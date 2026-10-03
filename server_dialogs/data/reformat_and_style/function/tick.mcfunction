@@ -1,1 +1,0 @@
-function reformat_and_style:check_trigger

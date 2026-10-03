@@ -1,1 +1,0 @@
-execute as @e[type=chicken] at @s unless block ~ ~ ~ hopper unless block ~ ~-1 ~ hopper run tp @s 0 -200 0

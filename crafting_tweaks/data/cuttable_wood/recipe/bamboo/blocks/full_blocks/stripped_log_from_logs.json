@@ -1,11 +1,7 @@
 {
-	"type": "stonecutting",
-	"ingredient": [
-		"bamboo_block",
-		"bamboo_wood",
-		"stripped_bamboo_wood"
-	],
-	"result": {
-		"id": "stripped_bamboo_block"
-	}
+  "type": "stonecutting",
+  "ingredient": "bamboo_block",
+  "result": {
+    "id": "stripped_bamboo_block"
+  }
 }
