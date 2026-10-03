@@ -26,7 +26,7 @@
     "show_toast": false,
     "announce_to_chat": false
   },
-  "parent": "cuttable_copper:cuttable_copper",
+  "parent": "cuttable_copper:more_cuttable_copper",
   "criteria": {
     "tick": {
       "trigger": "minecraft:tick"
