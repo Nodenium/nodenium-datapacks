@@ -22,8 +22,8 @@
         "color": "white"
       }
     ],
-    "show_toast": false,
-    "announce_to_chat": false
+    "show_toast": true,
+    "announce_to_chat": true
   },
   "parent": "crafting_tweaks:stonecutter",
   "criteria": {
