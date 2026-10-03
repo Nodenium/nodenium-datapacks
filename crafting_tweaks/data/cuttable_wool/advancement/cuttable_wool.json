@@ -47,6 +47,7 @@
         "color": "white"
       },
       {
+        "atlas": "items",
         "sprite": "minecraft:item/white_cushion",
         "color": "white"
       }
