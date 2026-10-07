@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#R#",
+    "###"
+  ],
+  "key": {
+    "#": "minecraft:chiseled_sandstone",
+    "R": "minecraft:red_dye"
+  },
+  "result": {
+    "id": "minecraft:chiseled_red_sandstone",
+    "count": 8
+  },
+  "group": "red_sand_dying"
+}

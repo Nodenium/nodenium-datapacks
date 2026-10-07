@@ -6,14 +6,17 @@
     "title": "Craftable Copper Chests",
     "description": [
       {
-        "text": "  ",
+        "sprite": "minecraft:block/cut_copper",
         "color": "white"
       },
       {
         "sprite": "minecraft:block/cut_copper",
         "color": "white"
       },
-      "  ",
+      {
+        "sprite": "minecraft:block/cut_copper",
+        "color": "white"
+      },
       "\n",
       {
         "sprite": "minecraft:block/cut_copper",
@@ -45,12 +48,18 @@
         }
       },
       "\n",
-      "  ",
       {
         "sprite": "minecraft:block/cut_copper",
         "color": "white"
       },
-      "  "
+      {
+        "sprite": "minecraft:block/cut_copper",
+        "color": "white"
+      },
+      {
+        "sprite": "minecraft:block/cut_copper",
+        "color": "white"
+      }
     ],
     "show_toast": false,
     "announce_to_chat": false

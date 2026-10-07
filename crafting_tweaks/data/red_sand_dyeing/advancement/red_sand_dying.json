@@ -1,0 +1,68 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:red_sand"
+    },
+    "title": "Red Sand Dyeing",
+    "description": [
+      {
+        "sprite": "minecraft:block/sand",
+        "color": "white"
+      },
+      {
+        "sprite": "minecraft:block/sand",
+        "color": "white"
+      },
+      {
+        "sprite": "minecraft:block/sand",
+        "color": "white"
+      },
+      "\n",
+      {
+        "sprite": "minecraft:block/sand",
+        "color": "white"
+      },
+      {
+        "atlas": "items",
+        "sprite": "minecraft:item/red_dye",
+        "color": "white"
+      },
+      {
+        "sprite": "minecraft:block/sand",
+        "color": "white"
+      },
+      " → ",
+      {
+        "sprite": "minecraft:block/red_sand",
+        "color": "white"
+      },
+      " x8",
+      "\n",
+      {
+        "sprite": "minecraft:block/sand",
+        "color": "white"
+      },
+      {
+        "sprite": "minecraft:block/sand",
+        "color": "white"
+      },
+      {
+        "sprite": "minecraft:block/sand",
+        "color": "white"
+      },
+      "\n",
+      {
+        "text": "Available for all sand and sandstone types",
+        "color": "gray"
+      }
+    ],
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "crafting_tweaks:crafting_table",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}
